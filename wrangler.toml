@@ -1,0 +1,15 @@
+name = "carkeys-blackroad"
+main = "src/worker.js"
+compatibility_date = "2026-03-31"
+
+[ai]
+binding = "AI"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "carkeys"
+database_id = "01e4eba3-5208-4cbe-9bf5-82a5f7657605"
+
+[[routes]]
+pattern = "carkeys.blackroad.io/*"
+zone_name = "blackroad.io"
