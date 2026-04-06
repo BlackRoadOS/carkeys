@@ -1,45 +1,43 @@
-# CarKeys
+# carkeys — BlackRoad OS
 
-*Grab your keys. You're not going anywhere without them.*
+**Live:** [carkeys.blackroad.io](https://carkeys.blackroad.io)
+**Part of:** [BlackRoad OS](https://os.blackroad.io) — browser-based desktop with 27 AI agents
 
-Unified credential vault and device registry. One secure keychain for every login, API token, passkey, and device across The BlackRoad.
+## Try It
 
-## The Ride
+Open [os.blackroad.io](https://os.blackroad.io) in any browser. No signup required. Click carkeys in the dock.
 
-Grab your CarKeys. Every login, every token, every device — one keychain, always fresh. You're not going anywhere without them.
+Or visit [carkeys.blackroad.io](https://carkeys.blackroad.io) directly.
 
 ## What It Does
 
-Master credential manager that handles authentication, API key storage, device trust scoring, and session management across all 14 BlackRoad products. CarKeys is the ignition — nothing starts without it.
+carkeys is one of 17 products in BlackRoad OS, a browser-based operating system running on 5 Raspberry Pi 5 computers with Hailo-8 AI accelerators.
 
-## Integrations
+- **    4795 lines** of working code
+- Workers AI powered (Llama 3.1/3.2)
+- D1 database (SQLite at edge)
+- Part of the 27-agent ecosystem
+- No ads. No tracking. No algorithm.
 
-| Service | Role |
-|---------|------|
-| **Clerk** | Identity provider — user auth, SSO, session management |
-| **Cloudflare D1** | Credential metadata, device registry |
-| **Cloudflare KV** | Session token cache, fast auth lookups |
-| **Stripe** | Subscription tier lookup for access control |
-| **RoadChain** | Immutable audit log of every key use and rotation |
+## Stack
 
-## Features
+- Runtime: Cloudflare Workers
+- Database: Cloudflare D1
+- AI: Workers AI
+- Auth: CarKeys (JWT + D1 sessions)
 
-- Single sign-on across all BlackRoad products via Clerk
-- API key generation, storage, and automatic rotation
-- Device fingerprinting and trust scoring
-- Family/team profiles with scoped permissions
-- Time-limited guest keys for contractors or AI agents
-- RoadChain-stamped audit trail for every credential event
-- Zero-knowledge architecture — credentials encrypted on-device
+## BlackRoad OS
 
-## Status
+17 products. 27 AI agents. 4 workspaces. Voice commands. Mesh compute. $200 of hardware.
 
-**LIVE** — 94 lines (expanding) | [carkeys.blackroad.io](https://carkeys.blackroad.io)
+- **OS:** [os.blackroad.io](https://os.blackroad.io)
+- **Social:** [backroad.blackroad.io](https://backroad.blackroad.io)
+- **Agents:** [roadtrip.blackroad.io](https://roadtrip.blackroad.io)
+- **Tutor:** [roadie.blackroad.io](https://roadie.blackroad.io)
+- **Search:** [roadview.blackroad.io](https://roadview.blackroad.io)
+- **Code:** [roadcode.blackroad.io](https://roadcode.blackroad.io)
+- **GitHub:** [github.com/BlackRoadOS](https://github.com/BlackRoadOS)
 
-## How It Powers The BlackRoad
+## License
 
-CarKeys is the ignition. You grab them first thing every morning, and every other product starts only after CarKeys authenticates you. No keys, no ride.
-
----
-
-Part of [BlackRoad OS](https://blackroad.io) — Remember the Road. Pave Tomorrow.
+PROPRIETARY. Copyright 2025-2026 BlackRoad OS, Inc. All rights reserved.
